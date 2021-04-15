@@ -1,0 +1,83 @@
+body{
+    background-color: cornsilk;
+}
+header{
+    text-align: center;
+    font-size: 1.5em;
+}
+section, footer{
+    background-color:rgb(235, 194, 180);
+    text-align: justify;
+    padding: 2%;
+    margin: 5%, auto;
+}
+.i1{
+    margin-top: 2%;
+    margin-left: 2.5%;
+    width: 20%
+}
+.i2{
+    margin-top: 1.2%;
+    margin-left: 72%;
+    width: 20%;
+}
+.pross{
+    margin-left: 35%;
+    width: 30%;
+}
+.p1{
+    margin-left: 22em;
+    width: 70%;
+    margin-top: -35%;
+    text-align: justify;
+}
+.p2{
+    margin-left: 3%;
+    margin-top: -13%;
+    text-align: justify;
+    width: 45%;
+}
+h2{
+    background-color:black;
+    color: cornsilk;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1em;
+}
+.Youtube{
+    margin-top: 1%;
+}
+.vid2{
+    margin-top: 1%;
+    margin-left: 32%;
+}
+h3{
+    text-align: center;
+    margin-top: 8%;
+    width: 40%;
+    min-height: 70px;
+    background-color:rgb(217, 243, 243);
+    color: black;
+    box-shadow: 60px -16px teal;
+}
+h4{
+    text-align: center;
+}
+.ht{
+    margin-top: 6%;
+}
+.href{
+    color: white;
+}
+.utpl{
+    border-style: dashed double none;
+}
+.lo{
+    margin-left: 43%;
+}
+.foo{
+    margin-top: 5%;
+    background-color: rgba(197, 188, 188, 0.801);
+    color: black;
+    border-radius: 5%;
+}

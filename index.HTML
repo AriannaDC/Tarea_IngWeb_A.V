@@ -1,12 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+<link href="estilos.css" rel="stylesheet" type="text/css">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ingenieria Web / Tarea</title>
 </head>
+
 <body>
-    <h1>Html Pagina Web</h1>
+    <header>
+        <h1>HTML5 / CSS3</h1>
+        <hr>
+        <H1>INGENIERIA WEB</h1>
+        <img src="img/utpl.png" alt="utpl" width="20%" class="utpl">
+        
+    </header>
+    <nav><b><u>CONTENIDOS:</u></b>
+        <ul>
+            <li><a href="#">Novedades</a></li>
+            <li><a href="#que">HTML5</a></li>
+            <li><a href="#ht">CSS3</a></li>
+        </ul>
+    </nav>
+    <div>
+        <h2 id="que">¿Qué es HTML5?</h2>
+        <img src="img/html.jpg" alt="html" width="20%" class="i1"><br>
+        <iframe width="360" height="315" src="https://www.youtube.com/embed/vz4z0RLcAyk" title="YouTube video player"
+            class="Youtube" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <p>
+        <blockquote class="p1">HTML es un lenguaje de marcado que nos permite indicar la estructura de nuestro documento
+            mediante etiquetas. Entre las etiquetas que se incluyen dentro del lenguaje HTML se encuentran:
+            hipervínculos, etiquetas para imágenes, saltos de página, entre otras.<br> Por tanto,
+            HTML5 nos permite una mayor interacción entre nuestras páginas web y contenido media (video, audio, entre
+            otros) así como una mayor facilidad a la hora de codificar nuestro diseño básico.
+            <br><br>Diseñado para ser utilizable por todos los desarrolladores de Open Web, esta página referencía
+            numerosos recursos sobre las tecnologías de HTML5, clasificados en varios grupos según su función.
+            <ul>
+                <li><b>Semántica:</b> Permite describir con mayor precisión cuál es su contenido.</li>
+            </ul>
+            <ul>
+                <li><b>Conectividad:</b> Permite comunicarse con el servidor de formas nuevas e innovadoras.</li>
+            </ul>
+            <ul>
+                <li><b>Sin conexión y almacenamiento:</b> Permite a las páginas web almacenar datos localmente en el
+                    lado del cliente y operar sin conexión de manera más eficiente.</li>
+            </ul>
+            <ul>
+                <li><b>Multimedia:</b> Nos otorga un excelente soporte para utilizar contenido multimedia como lo son
+                    audio y video nativamente.</li>
+            </ul>
+            <ul>
+                <li><b>Gráficos y efectos 2D/3D:</b> Proporciona una amplia gama de nuevas características que se ocupan
+                    de los gráficos en la web como lo son canvas 2D, WebGL, SVG, etc.</li>
+            </ul>
+            <ul>
+                <li><b>Rendimiento e Integración:</b> Proporciona una mayor optimización de la velocidad y un mejor uso
+                    del hardware.</li>
+            </ul>
+            <ul>
+                <li><b>Acceso al dispositivo:</b> Proporciona APIs para el uso de varios componentes internos de entrada
+                    y salida de nuestro dispositivo.</li>
+            </ul>
+            <ul>
+                <li><b>CSS3:</b> Nos ofrece una nueva gran variedad de opciones para hacer diseños más sofisticados.
+                </li>
+            </ul>
+        </blockquote>
+        </p>
+
+
+        <h3 id="h3">Secciones y contenidos de HTML5<br>
+            <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/section">Section</a>
+            <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/article">Article</a>
+            <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/nav">Nav</a>
+            <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/header">Header</a>
+            <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/footer">Footer</a>
+            <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/aside">Aside</a>
+        </h3>
+
+        <h2 class="ht" id="ht">¿Qué es CSS3?</h2>
+        <img src="img/css3.jpg" alt="css3" width="20%" class="i2">
+        <p>
+        <blockquote class="p2">CSS3 es una tecnología que ha tenido una evolución en el tiempo, que actualmente se
+            encuentra en su versión 3, como su propio nombre indica.<br>
+
+            Sus siglas corresponden a “Cascading Style Sheets”, que tiene el siguiente significado: </blockquote>
+        </p>
+
+        <ul>
+            <li><b>Cascading</b>, que significa que los estilos que aplicamos a los elementos de una página web se
+                propagan a los elementos que contiene, se propagan en cascada.</li>
+        </ul>
+        <ul>
+            <li><b>Style</b>, porque mediante CSS lo que hacemos es aplicar estilos visuales a los distintos elementos
+                de nuestra página web.</li>
+        </ul>
+        <ul>
+            <li><b>Sheets</b>, que significa hojas, porque los estilos de una página web se añaden en ficheros aparte,
+                en ficheros con la extensión .css de manera general. </li>
+        </ul>
+        </p><br>
+
+        <section>
+            <h4><b>FUNCIONAMIENTO</b></h4>
+            <p>Vamos a ver en un pequeño esquema qué es lo que sucede desde que se solicita una página web hasta que se
+                le aplica el estilo. El proceso es el siguiente: </p>
+            <img src="img/proceso.JPG" alt="proceso" width="20%" class="pross">
+            <p>Cuando desde un navegador, por ejemplo Chrome, solicitamos una página a través de una dirección, por
+                ejemplo http://..../index.html, esta petición va a un servidor web, que nos devuelve la página que se ha
+                solicitado.
+                Para aplicar estilos en las páginas HTML, se utiliza un fichero aparte, una hoja de estilos con la
+                extensión .css, por lo que cuando estos dos documentos llegan al navegador, va a leer el documento HTML,
+                le aplica los estilos CSS y lo muestra.</p>
+        </section>
+
+        <iframe width="560" height="275" src="https://www.youtube.com/embed/Q7rJPuq4nuI" title="YouTube video player"
+            frameborder="0" class="vid2"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <article>
+
+            <h3 id="h3">Secciones y contenidos de CSS3<br>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow">box-shadow</a>
+                <a href="https://developer.mozilla.org/es/docs/Web/CSS/border-image">border-image</a>
+                <a href="https://developer.mozilla.org/es/docs/Web/CSS/border-radius">border-radius</a>
+                <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions">Transitions</a>
+                <a href="https://developer.mozilla.org/es/docs/Web/CSS/text-overflow">text-overflow</a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Columns/Using_multi-column_layouts">Texto
+                    Varias Columnas CSS3</a>
+            </h3>
+        </article>
+
+        <h2>RESUMEN / TRABAJO</h2>
+        <p>
+        <blockquote class="p3">Después de haber aprendido varias técnicas de diseño HTML y estilos CSS3, el aplicarlo en un proyecto propio, toma tiempo, es laborioso pero muy interesante.
+            Además, hay que practicar e ir investigando más, saber como y dónde aplicar lo aprendido, y adquirir la actitud de responsabilidad en todo momento,
+            para poder tener al final la gran satisfacción de poder observar un diseño, hecho por nosotros mismos, con las diferentes técnicas, estilos, procesos, y la abundante
+            cantidad de información que poseemos en la web.</p>
+            <img src="img/lo'.png" alt="lo" width="20%" class="lo">
+    </div>
+
+    <footer class="foo">
+        <b><u>Link's de interés</u></b>
+        <ul><a href="https://developer.mozilla.org/es/docs/Web/Tutorials" class="href">#Tutoriales de la Web</a></ul>
+        <ul><a href="hhttps://www.htmlquick.com/es/reference/tags.html" class="href">#Elementos de HTML</a></ul>
+
+        <h5>Este trabajo fue realizado por: <br>
+            Arianna Michelle Vinueza Ortega.<br>
+            Correo Institucional: amvinueza2@utpl.edu.ec</h5>
+    </footer>
 </body>
+
 </html>
